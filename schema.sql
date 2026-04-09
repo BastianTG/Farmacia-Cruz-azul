@@ -16,6 +16,6 @@ CREATE TABLE IF NOT EXISTS productos (
 
 -- 3. Configuración de seguridad y acceso (Punto 52) 
 -- Reemplaza '10.0.1.%' por el rango de tu subred pública donde está el servidor WEB [cite: 32, 50]
-CREATE USER IF NOT EXISTS 'admin_farmacia'@'10.0.1.40' IDENTIFIED BY 'farm1234';
-GRANT ALL PRIVILEGES ON farmacia_db.* TO 'admin_farmacia'@'10.0.1.40';
+CREATE USER IF NOT EXISTS 'admin_farmacia'@'10.0.0.40' IDENTIFIED BY 'farm1234';
+GRANT ALL PRIVILEGES ON farmacia_db.* TO 'admin_farmacia'@'10.0.0.40';
 FLUSH PRIVILEGES;
