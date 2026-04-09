@@ -3,7 +3,7 @@
 $host = "10.0.0.40";
 $user = "admin_farmacia";
 $password = "farm1234";
-$dbname = "farmacia_cruzazul";
+$dbname = "farmacia_db";
 
 // Crear conexión
 $conn = new mysqli($host, $user, $password, $dbname);
