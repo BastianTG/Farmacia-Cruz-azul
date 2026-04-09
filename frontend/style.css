@@ -1,0 +1,89 @@
+/* style.css - Diseño para ERP Farmacia Cruz Azul */
+
+/* 1. Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f7; /* Color suave para ambiente empresarial */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* 2. Contenedor del Formulario */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    border-top: 5px solid #0056b3; /* Color corporativo */
+}
+
+/* 3. Encabezados */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* 4. Estilo de los Campos (Inputs) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box; /* Evita que el padding afecte el ancho */
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #0056b3;
+    background-color: #f9fbff;
+}
+
+/* 5. Botón de Envío */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #003d7a;
+}
+
+/* 6. Mensaje de pie de página */
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
