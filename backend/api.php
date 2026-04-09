@@ -1,10 +1,9 @@
 <?php
 // Configuración de conexión
-// REEMPLAZA con la IP Privada de tu instancia de Base de Datos
-$host = "10.0.0.5";
-$user = "root";
-$password = "123456";
-$dbname = "farmacia_db";
+$host = "10.0.0.40";
+$user = "admin_farmacia";
+$password = "farm1234";
+$dbname = "farmacia_cruzazul";
 
 // Crear conexión
 $conn = new mysqli($host, $user, $password, $dbname);
